@@ -1,0 +1,20 @@
+Member Module:
+Category Name: None
+Category Number: None
+
+Functions:
+1. Filters chat for explicit contents.
+2. Deletes explicit contents from chat.
+
+Note: The words filtered are subject
+      to additon, removal, editing, 
+      and other forms of change.
+      Any attempts to bypass the filter
+      are up to the staff of the server
+      that said attempts take place in 
+      to moderate.
+      Echo is not responsible for any 
+      words that make it through the
+      filter, nor should the filter be
+      relied on as the sole method of 
+      keeping chat non-explicit.

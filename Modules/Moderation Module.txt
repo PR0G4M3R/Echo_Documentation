@@ -1,0 +1,95 @@
+Moderation Module:
+Category Name: Admin Commands
+Category Number: 3
+
+Commands:
+
+1. setup_roles:
+   Aliases: None (yet)
+   This command sets staff roles for 
+   the server that the command is 
+   called in.
+
+   Parameters: {self, ctx, roles}
+   Example: setup_roles @Owner @Admin...
+   Note: If the roles field is left 
+   blank it will tell you that you need
+   to select at least one role. You can
+   add up to five roles. 
+   Note: Only the owner of the guild
+   that the command is being called in 
+   can use this command.
+
+2. setlc:
+   Aliases: None
+   This command sets the channel that 
+   moderation logs will be sent in.
+
+   Parameters: {self, ctx, channel}
+   Example: setlc #Logs
+   Note: Only users with staff rolls can
+   use this command. (See setup_roles)
+
+3. modmail:
+   Aliases: None
+   Send a message to mods.
+
+   Parameters: {self, ctx, *, 
+   content: str}
+   Example: modmail This is a message to 
+   staff about something.
+   Note: The message must be at least 30 
+   characters long. There is a cooldown 
+   period of 900 seconds. 
+
+4. mute:
+   Aliases: None
+   Mutes a user for a set duration.
+
+   Parameters: {self, ctx, member, duration,
+   reason}
+   Example: mute @JohnDoe 5m Test
+   Note: Only users with staff rolls can
+   use this command. (See setup_roles)
+   Note: Accepts time in h(ours) m(inutes)
+   and s(econds). Requires a "muted" role.
+
+5. unmute:
+   Aliases: None
+   Unmutes a user.
+
+   Parameters: {self, ctx, member}
+   Example: unmute @JohnDoe
+   Note: Only users with staff rolls can
+   use this command. (See setup_roles)
+   Note: No reason required, reason will be
+   listed as "Manual Unmute".
+
+6. kick:
+   Aliases: None
+   Kicks a user.
+
+   Parameters: {self, ctx, member, reason}
+   Example: kick @JohnDoe
+   Note: Only users with staff rolls can
+   use this command. (See setup_roles)
+
+7. ban:
+   Aliases: None
+   Bans a user.
+
+   Parameters: {self, ctx, member, *, reason}
+   Example: ban @JohnDoe Test
+   Note: Only users with staff rolls can
+   use this command. (See setup_roles)
+   Note: Bans do not expire, and have to be
+   removed manually. (See unban)
+
+8. unban:
+   Aliases: None
+   Unbans a user.
+
+   Parameters: {self, ctx, *, member_id}
+   Example: Unban @JohnDoe 
+   Note: Only users with staff rolls can
+   use this command. (See setup_roles)

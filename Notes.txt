@@ -1,0 +1,15 @@
+1. All documentation is designed to be
+   easily viewable from mobile devices.
+   Therefor, lines will not span the 
+   full width of laptop or desktop screens. 
+
+2. All bot commands are NOT case sensitive.
+
+3. Contents of this repository may be 
+   updated frequently and without notice.
+
+4. This bots code may not be replicated 
+   under any circumstances.
+
+5. This bot is designed to work with
+   multiple servers.

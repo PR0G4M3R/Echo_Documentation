@@ -1,0 +1,78 @@
+Member Module:
+Category Name: Server Commands
+Category Number: 2
+
+Functions:
+
+1. Logs username changes.
+2. Welcomes and says goodbye to 
+   members.
+
+Commands:
+
+1. setwc:
+   Aliases: None
+   Set the channel for welcome and
+   goodbye messages.
+
+   Parameters: {self, ctx, channel}
+   Example: Setwc #welcome 
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
+
+2. setdm:
+   Aliases: None 
+   Enable or disable sending welcome and 
+   goodbye messages via direct message.
+
+   Parameters: {self. ctx, state:bool}
+   Example: Setdm 
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
+
+3. setthumbnail:
+   Aliases: None
+   Set a thumbnail for the welcome message 
+   embed (if embed is enabled)
+
+   Parameters: {self, ctx, 
+   thumbnail_url: str}
+   Example: sethumbnail
+   https://thumbnail.com
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
+
+4. setimage:
+   Aliases: None
+   Set a image for the welcome message
+   embed (if embed is enabled)
+
+   Parameters: {self, ctx, image_url: str}
+   Example: setimage https://image.com
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
+
+5. setembed:
+   Aliases: None
+   Enable or disable embed messages.
+
+   Parameters: {self, ctx, state: bool}
+   Example: setembed
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
+
+6. welsets:
+   Aliases: None
+   Show the welcome settings for the
+   current server as an embed.
+
+   Parameters: {self, ctx}
+   Example: welsets
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)

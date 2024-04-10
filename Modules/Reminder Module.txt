@@ -1,0 +1,37 @@
+Reminder Module:
+Category Name: Reminders
+Category Number: 4
+
+Commands:
+
+1. remind:
+   Aliases: None
+   Sets a reminder for the user 
+   calling the command.
+
+   Parameters: {self, ctx, time,
+   is_repeating, *, message}
+   Example: 10:50PM false reminder
+
+2. reminders:
+   Aliases: None
+   Shows your reminders in an embed.
+
+   Parameters: {self, ctx}
+   Example: reminders
+
+3. removerem:
+   Aliases: None
+   Removes a reminder for the user
+   calling the command.
+
+   Parameters: {self, ctx, *, message}
+   Example: remove reminder
+
+4. editrem:
+   Aliases: Nome
+   Edits a reminder.
+
+   Parameters: {self, ctx, time, 
+   is_repeating, *, message}
+   Example: 10:50PM false reminders
