@@ -1,0 +1,24 @@
+Channel Module:
+Category Name: User and Server Info
+Category Number: 1
+
+Commands:
+
+1. Userinfo:
+   Aliases: Memberinfo, ui, mi
+   This command gets the user info of 
+   yourself or another user.
+
+   Parameters: {self, ctx, target}
+   Example: ui @JohnDoe
+   Note: If the target field is left 
+   blank it will get the information of 
+   the user that called the command.
+
+2. Serverinfo:
+   Aliases: Guildinfo, si, gi
+   This command gets the info of the 
+   server it is used in.
+
+   Parameters: {self, ctx}
+   Example: gi
