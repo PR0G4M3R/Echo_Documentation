@@ -1,0 +1,17 @@
+Channel Module: 2 Commands
+Help Module: 1 Command
+Message Module: Automated
+Member Module: 6 Commands
+Moderation Module: 8 Commands
+Reminder Module: 4 Commands
+Weather Module: 2 Commands
+Level Module: 3 Commands
+
+Some Commands are only useable by 
+the owner of the guild the bot is 
+being used in. Other commands are
+only accesible by staff in the guild.
+
+Slash Commands may be integrated in
+the future, perhaps some time in the 
+next months.
