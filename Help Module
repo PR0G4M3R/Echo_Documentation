@@ -1,0 +1,17 @@
+Help Module:
+Category Name: None
+Category Number: None
+
+Commands:
+
+1. Help:
+   Aliases: None
+
+   This command displays the help embed.
+   The colour of the embed depends on the 
+   colour of the users top role. Top role
+   can be found with the ui command. 
+   (See channel module)
+
+   Parameters: {self, ct}
+   Example: help
