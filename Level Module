@@ -1,0 +1,35 @@
+Level Module:
+Category Name: Leveling
+Category Number: 6
+
+Commands:
+
+1. Toggle:
+   Aliases: None
+   Toggle leveling system on or off.
+
+   Parameters: {self, ctx}
+   Example: toggle 
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
+
+2. View_level:
+   Aliases: None (yet)
+   View your or another user's level.
+
+   Parameters: {self, ctx, user}
+   Example: View_level @JohnDoe
+   Note: If the user field is left blank
+   it gets your level.
+
+3. Set_levelup_channel:
+   Aliases: None (yet)
+   Set the channel level messages are 
+   sent to.
+   
+   Parameters:
+   Example:
+   Note: Only users with staff rolls can
+   use this command. (See moderation
+   module)
