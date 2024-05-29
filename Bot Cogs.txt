@@ -4,7 +4,6 @@ Message Module: Automated
 Member Module: 6 Commands
 Moderation Module: 8 Commands
 Reminder Module: 4 Commands
-Weather Module: 2 Commands
 Level Module: 3 Commands
 
 Some Commands are only useable by 
